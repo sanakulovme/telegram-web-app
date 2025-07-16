@@ -93,6 +93,7 @@ function App() {
         <div className="text-center mb-6">
           <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
             <User className="w-8 h-8 text-white" />
+            <img src={user.photo_url} alt="" />
           </div>
           <h1 className="text-2xl font-bold text-gray-900">
             {user.first_name} {user.last_name}
